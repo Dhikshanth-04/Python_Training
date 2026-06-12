@@ -25,4 +25,5 @@ Tuples in python;
 - They are immutable, ordered and can hold different data types
 - Single element can be deleted using del
 
-
+Decorator in python : 
+- A decorator is the function that takes another function as the input and returns the enhanced edition of the function without altering the original function.
