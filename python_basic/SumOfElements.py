@@ -1,4 +1,4 @@
-def sumOfElements(arr):
+def sumAvgOfElements(arr):
     sum = 0
     for i in arr:
         sum+=i
@@ -8,5 +8,5 @@ n = int(input("Enter array size : "))
 arr = []
 for i in range(0,n,1):
     arr.append(int(input("Enter array elements : ")))
-res = sumOfElements(arr)
-print(res)
+res = sumAvgOfElements(arr)
+print("Sum :",res,"Average :",res/n)
