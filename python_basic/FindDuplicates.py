@@ -5,6 +5,7 @@ def findDuplicates(arr):
     for i in freq:
         if(freq[i]!=1):
             print(i)
+    print(freq)
 
 arr = []
 size = int(input("Enter array size : "))
