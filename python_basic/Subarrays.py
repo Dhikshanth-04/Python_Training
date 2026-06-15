@@ -2,6 +2,7 @@ def subarray(arr):
     n = len(arr)
 
     for i in range(n):
+        res = []
         for j in range(i, n):
             print(arr[i:j+1])
 
